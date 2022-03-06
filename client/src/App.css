@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-color: #d2d0e7;
+  font-family: Inconsolata;
+  color: #053f34;
+}
+
+.cabin {
+  font-family: Cabin;
+}
+
+.inconsolata {
+  font-family: Inconsolata;
+}
+/* <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"> */
