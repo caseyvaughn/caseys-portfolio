@@ -13,3 +13,13 @@
   font-family: Inconsolata;
 }
 /* <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"> */
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d2d0e7;
+}
