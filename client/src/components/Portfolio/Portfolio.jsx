@@ -5,7 +5,7 @@ import github from "../../assets/icons/github.png"
 export default function Portfolio() {
   
   return (
-    <div>
+    <div id="projects">
       <h1>Recent Work</h1>
       <Container>
             <Row className='row-cols-1 row-cols-lg-3'>
@@ -47,7 +47,7 @@ export default function Portfolio() {
                 <Card.Body>
                   <Card.Title>Tarot Reader</Card.Title>
                   <Card.Text>
-                      Users to draw a virtual Tarot reading and to search for a specific card using data from the Tarot API.
+                      A website that lets users draw a virtual Tarot reading and search for a specific card using data from the Tarot API.
                 </Card.Text>
                 <a href="https://github.com/caseyvaughn/Tarot-Reader"><img className="icon" src={github} alt="github logo" /></a>
                 <br/>

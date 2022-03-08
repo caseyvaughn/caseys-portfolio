@@ -1,8 +1,11 @@
 import { Navbar, Nav, Container} from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
-// import { Link } from "react-scroll"
-// import { scroller } from "react-scroll";
+// import { NavLink } from 'react-router-dom'
+// // import { Link } from "react-scroll"
+import { scroller } from "react-scroll";
+import Scroll from 'react-scroll'
+
 import "./NavBar.css"
+const ScrollLink = Scroll.ScrollLink
 
 // https://stackoverflow.com/questions/59915723/using-react-scroll-link-while-using-react-boostrap-nav-link
 
@@ -16,19 +19,24 @@ export default function NavBar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="responsive-navbar">
           <Nav className="mr-auto">
-            {/* <Link to="projects" smooth={true}>Projects 1 </Link> */}
-            {/* <NavLink onClick={() => scroller.scrollTo('projects', {
+          <Nav.Link onClick={() => scroller.scrollTo('projects', {
               smooth: true,
               offset: -70,
-              duration: 500,
+              duration: 200,
             })}
-            >Projects 2</NavLink> */}
-
-
-            <NavLink className="nav" to="/">Home</NavLink>
-            <NavLink className="nav" to='/projects'>Projects</NavLink>
-            <NavLink className="nav" to="/aboutme">About Me</NavLink>
-            <NavLink className="nav" to="/">Contact</NavLink>
+            >Projects</Nav.Link>
+            <Nav.Link onClick={() => scroller.scrollTo('aboutme', {
+              smooth: true,
+              offset: -70,
+              duration: 200,
+            })}
+            >About Me</Nav.Link>
+             <Nav.Link onClick={() => scroller.scrollTo('contact', {
+              smooth: true,
+              offset: -70,
+              duration: 200,
+            })}
+            >Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
