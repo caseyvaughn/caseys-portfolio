@@ -1,10 +1,20 @@
-.portfolio-card {
+/* applying both .card & .portfolio-card to override defaul bootstrap card styling */
+.card.portfolio-card {
   border-radius: 50px;
   background-color: #d2d0e7;
   border: 2px solid #053f34;
+  height: 350px;
+  width: 250px;
+  margin: 10px;
 }
-.card {
-  border-radius: 50px;
+a.extern-link {
   background-color: #d2d0e7;
+  color: #053f34;
+  border-radius: 25px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   border: 2px solid #053f34;
+  text-decoration: none;
 }

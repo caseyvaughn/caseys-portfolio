@@ -7,7 +7,8 @@ export default function NavBar() {
     <Navbar collapseOnSelect
       expand="lg">
     <Container className="nav-container">
-      <Navbar.Brand href="/" className = "cabin nav">Casey Vaughn</Navbar.Brand>
+        {/* <Navbar.Brand style={{ color: "053f34" }} href="/" className="cabin nav navbar-title">Casey Vaughn</Navbar.Brand> */}
+        <h1 className="cabin nav" href="/">Casey Vaughn</h1>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="responsive-navbar">
           <Nav className="mr-auto">

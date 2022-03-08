@@ -3,16 +3,18 @@
   background-color: #d2d0e7;
   font-family: Inconsolata;
   color: #053f34;
+  /* min-height: 400px; stop sticky footer from covering content */
+  margin-bottom: 100px;
 }
 
 .cabin {
   font-family: Cabin;
+  color: #053f34;
 }
 
 .inconsolata {
   font-family: Inconsolata;
 }
-/* <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"> */
 
 .footer {
   margin-top: 1rem;
