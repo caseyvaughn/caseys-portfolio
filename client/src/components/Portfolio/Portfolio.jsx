@@ -9,7 +9,7 @@ export default function Portfolio() {
       <h1>Recent Work</h1>
       <Container>
             <Row className='row-cols-1 row-cols-lg-3'>
-              <Col>
+              <Col className="card-col">
                 <Card className="portfolio-card card">
 
                 {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
@@ -25,7 +25,7 @@ export default function Portfolio() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
+              <Col className="card-col">
               <Card className="portfolio-card">
                 {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                 <Card.Body>
@@ -41,7 +41,7 @@ export default function Portfolio() {
                 </Card.Body>
                   </Card>
               </Col>
-              <Col>
+              <Col className="card-col">
               <Card className="portfolio-card">
                 {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                 <Card.Body>

@@ -19,3 +19,9 @@ a.extern-link {
   text-decoration: none;
   margin: 10px;
 }
+
+/* center cards when there is a single column spread */
+.card-col {
+  display: flex;
+  justify-content: center;
+}

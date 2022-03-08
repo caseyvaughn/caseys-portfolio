@@ -12,7 +12,9 @@ const ScrollLink = Scroll.ScrollLink
 export default function NavBar() {
   return (
     <Navbar collapseOnSelect
-      expand="lg">
+      expand="lg"
+      sticky="top"
+    >
     <Container className="nav-container">
         {/* <Navbar.Brand style={{ color: "053f34" }} href="/" className="cabin nav navbar-title">Casey Vaughn</Navbar.Brand> */}
         <h1 className="cabin nav" href="/">Casey Vaughn</h1>
@@ -21,20 +23,17 @@ export default function NavBar() {
           <Nav className="mr-auto">
           <Nav.Link onClick={() => scroller.scrollTo('projects', {
               smooth: true,
-              offset: -70,
-              duration: 200,
+              duration: 100,
             })}
             >Projects</Nav.Link>
             <Nav.Link onClick={() => scroller.scrollTo('aboutme', {
               smooth: true,
-              offset: -70,
-              duration: 200,
+              duration: 100,
             })}
             >About Me</Nav.Link>
              <Nav.Link onClick={() => scroller.scrollTo('contact', {
               smooth: true,
-              offset: -70,
-              duration: 200,
+              duration: 100,
             })}
             >Contact</Nav.Link>
         </Nav>
