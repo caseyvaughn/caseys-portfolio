@@ -4,8 +4,8 @@
   font-family: Inconsolata;
   color: #053f34;
   /* stop sticky footer from covering content */
-  min-height: 400px;
-  margin-bottom: 109px;
+  /* min-height: 400px;
+  margin-bottom: 109px; */
 }
 
 .cabin {
@@ -20,7 +20,7 @@
 .footer {
   margin-top: 1rem;
   padding: 1rem;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
