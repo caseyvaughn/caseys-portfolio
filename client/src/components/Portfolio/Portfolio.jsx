@@ -6,7 +6,8 @@ export default function Portfolio() {
   
   return (
     <div id="projects">
-      <h1>Recent Work</h1>
+      <h1 className="wavy" wavy-text="Recent Work xxxxx">Recent Work</h1>
+      <p></p>
       <Container>
             <Row className='row-cols-1 row-cols-lg-3'>
               <Col className="card-col">
@@ -17,7 +18,6 @@ export default function Portfolio() {
                   <Card.Title>Wordle With Friends</Card.Title>
                   <Card.Text>
                     A Wordle game clone that allows users to create custom Wordle games and to solve Wordles created by other users.
-                  
                   </Card.Text>
                       <a href="https://github.com/caseyvaughn/wordle-with-friends"><img className = "icon" src={github} alt="github logo"/></a>
                 <br />

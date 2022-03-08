@@ -1,23 +1,20 @@
 import { Navbar, Nav, Container} from 'react-bootstrap'
-// import { NavLink } from 'react-router-dom'
-// // import { Link } from "react-scroll"
 import { scroller } from "react-scroll";
 import Scroll from 'react-scroll'
 
 import "./NavBar.css"
-const ScrollLink = Scroll.ScrollLink
+// const ScrollLink = Scroll.ScrollLink
 
 // https://stackoverflow.com/questions/59915723/using-react-scroll-link-while-using-react-boostrap-nav-link
 
 export default function NavBar() {
   return (
     <Navbar collapseOnSelect
-      expand="lg"
+      expand="md"
       sticky="top"
     >
     <Container className="nav-container">
-        {/* <Navbar.Brand style={{ color: "053f34" }} href="/" className="cabin nav navbar-title">Casey Vaughn</Navbar.Brand> */}
-        <h1 className="cabin nav" href="/">Casey Vaughn</h1>
+        <Navbar.Brand bsPrefix="cabin nav nav-title" href="/">Casey Vaughn</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="responsive-navbar">
           <Nav className="mr-auto">
