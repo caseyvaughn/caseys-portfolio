@@ -26,7 +26,7 @@ export default function NavBar() {
 
 
             <NavLink className="nav" to="/">Home</NavLink>
-            <Nav.Link className="nav" to='/projects'>Projects</Nav.Link>
+            <NavLink className="nav" to='/projects'>Projects</NavLink>
             <NavLink className="nav" to="/aboutme">About Me</NavLink>
             <NavLink className="nav" to="/">Contact</NavLink>
         </Nav>
