@@ -3,8 +3,9 @@
   background-color: #d2d0e7;
   font-family: Inconsolata;
   color: #053f34;
-  /* min-height: 400px; stop sticky footer from covering content */
-  margin-bottom: 100px;
+  /* stop sticky footer from covering content */
+  min-height: 400px;
+  margin-bottom: 109px;
 }
 
 .cabin {
@@ -24,4 +25,10 @@
   left: 0;
   width: 100%;
   background-color: #d2d0e7;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
 }

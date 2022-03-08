@@ -5,7 +5,7 @@ import "./Portfolio.css"
 export default function Portfolio() {
   
   return (
-    <div>Portfolio
+    <div>
       <h1>Recent Work</h1>
       <Container>
         {/* <Row>
