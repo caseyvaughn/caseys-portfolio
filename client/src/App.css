@@ -4,9 +4,6 @@
   font-family: Inconsolata;
   color: #053f34;
 }
-/* examples used for animated squiggles */
-/* https://codepen.io/mariawhen/pen/LWxQxW?editors=1100 */
-/* https://codepen.io/caseyvaughn/pen/MWOdMre?editors=1100 */
 
 .cabin {
   font-family: Cabin;
@@ -16,11 +13,13 @@
 .inconsolata {
   font-family: Inconsolata;
 }
+.section-div {
+  margin-top: 50px;
+}
 
 .footer {
   margin-top: 1rem;
   padding: 1rem;
-  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
@@ -33,14 +32,14 @@
   margin: 10px;
 }
 
+/* examples used for animated squiggles */
+/* https://codepen.io/mariawhen/pen/LWxQxW?editors=1100 */
+/* https://codepen.io/caseyvaughn/pen/MWOdMre?editors=1100 */
 .wavy {
   position: relative;
   display: inline-block;
   height: 60px;
   overflow: hidden; /*keep underline wave to only text length */
-  /* text-decoration-style: wavy;
-  text-decoration-color: #ffde8b;
-  text-decoration-line: underline; */
 }
 
 .wavy::after {

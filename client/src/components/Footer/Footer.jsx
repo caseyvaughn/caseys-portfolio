@@ -4,7 +4,7 @@ import linkedin from "../../assets/icons/linkedin.png"
 
 export default function Footer() {
   return (
-    <div className="footer" id="contact">
+    <div className="footer section-div" id="contact">
       <h2 className="wavy" wavy-text="Let's get in touch! xxx">Let's get in touch!</h2>
       <p style={{fontSize:"20px"}}>
         <a className = "extern-link" href="mailto:caseytvaughn@gmail.com?"> Say hi 👋      </a>

@@ -5,7 +5,7 @@ import github from "../../assets/icons/github.png"
 export default function Portfolio() {
   
   return (
-    <div id="projects">
+    <div id="projects" className="section-div">
       <h1 className="wavy" wavy-text="Recent Work xxxxx">Recent Work</h1>
       <p></p>
       <Container>
@@ -18,7 +18,11 @@ export default function Portfolio() {
                   <Card.Title>Wordle With Friends</Card.Title>
                   <Card.Text>
                     A Wordle game clone that allows users to create custom Wordle games and to solve Wordles created by other users.
-                  </Card.Text>
+                </Card.Text>
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                
+
+
                       <a href="https://github.com/caseyvaughn/wordle-with-friends"><img className = "icon" src={github} alt="github logo"/></a>
                 <br />
                 <a className="extern-link" href="https://wordle-with-friendz.netlify.app/">Deployed Site</a>

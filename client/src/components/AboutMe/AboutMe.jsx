@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 export default function AboutMe() {
   return (
-<div id="aboutme">
+<div id="aboutme" className="section-div">
     <Container className="profile-container">
       <h1 className="cabin wavy" wavy-text="About Me xxx">About Me</h1>
       <Row style={{ marginTop: "25px" }}>
