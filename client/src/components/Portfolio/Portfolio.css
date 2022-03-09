@@ -3,9 +3,10 @@
   border-radius: 50px;
   background-color: #d2d0e7;
   border: 2px solid #053f34;
-  height: 400px;
-  width: 320px;
+  height: 600px;
+  width: 350px;
   margin: 10px;
+  padding: 5px;
 }
 a.extern-link {
   background-color: #d2d0e7;
@@ -28,4 +29,8 @@ a.extern-link {
 
 .card-title {
   font-size: 3vw;
+}
+.card-image.screenshot {
+  width: 300px;
+  border-radius: 50px;
 }

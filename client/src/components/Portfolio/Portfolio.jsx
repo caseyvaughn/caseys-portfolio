@@ -2,6 +2,8 @@ import { Card, Row, Col, Container} from 'react-bootstrap'
 import "./Portfolio.css"
 import { scroller } from "react-scroll";
 import DevIcon from "devicon-react-svg";
+import wordle from "../../assets/wordle.png"
+
 
 
 export default function Portfolio() {
@@ -19,9 +21,14 @@ export default function Portfolio() {
         <Row className='row-cols-1 row-cols-lg-3'>
           <Col className="card-col">
             <Card className="portfolio-card card">
-              {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+              
               <Card.Body>
                 <Card.Title className="cabin">Wordle With Friends</Card.Title>
+              </Card.Body>
+
+              
+              <Card.Body>
+                
                   <Card.Text>
                     A Wordle game clone that allows users to create custom Wordle games and to solve Wordles created by other users.
                   </Card.Text>
@@ -36,7 +43,8 @@ export default function Portfolio() {
                 </a>
                     <br />
                   <a className="extern-link" href="https://wordle-with-friendz.netlify.app/">Deployed Site</a>
-                  </Card.Body>
+              </Card.Body>
+              <Card.Img variant="bottom" style={{borderRadius: "50px"}} className="screenshot" src={wordle} />
                 </Card>
           </Col>
           
