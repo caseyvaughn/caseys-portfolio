@@ -21,7 +21,7 @@ export default function Portfolio() {
             <Card className="portfolio-card card">
               {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
               <Card.Body>
-                <Card.Title>Wordle With Friends</Card.Title>
+                <Card.Title className="cabin">Wordle With Friends</Card.Title>
                   <Card.Text>
                     A Wordle game clone that allows users to create custom Wordle games and to solve Wordles created by other users.
                   </Card.Text>

@@ -25,3 +25,7 @@ a.extern-link {
   display: flex;
   justify-content: center;
 }
+
+.card-title {
+  font-size: 3vw;
+}
