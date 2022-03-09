@@ -62,19 +62,12 @@ export default function Portfolio() {
                 <Card.Title>Tarot Reader</Card.Title>
                   <Card.Text>
                     A website that lets users draw a virtual Tarot reading and search for a specific card using data from the Tarot API.
-                  </Card.Text>
+                </Card.Text>
+                
                   <DevIcon icon="javascript" className="icon"/>
                   <DevIcon icon="nodejs" className="icon" />
                   <DevIcon icon="css3" className="icon" />
                   <DevIcon icon="html5" className="icon" />
-                
-                <DevIcon icon="github" className="icon" />
-                <DevIcon icon="github_alt" className="icon" />
-                <DevIcon icon="github_badge" className="icon" />
-
-                
-                
-
 
                       <a href="https://github.com/caseyvaughn/Tarot-Reader">
                         <>
