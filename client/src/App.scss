@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-color: #d2d0e7;
+  font-family: Inconsolata;
+  color: #053f34;
+}
+
+.cabin {
+  font-family: Cabin;
+  color: #053f34;
+}
+
+.inconsolata {
+  font-family: Inconsolata;
+}
+.section-div {
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d2d0e7;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  fill: #053f34;
+}
+
+/* examples used for animated squiggles */
+/* https://codepen.io/mariawhen/pen/LWxQxW?editors=1100 */
+/* https://codepen.io/caseyvaughn/pen/MWOdMre?editors=1100 */
+.wavy {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  overflow: hidden; /*keep underline wave to only text length */
+}
+
+.wavy::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  white-space: nowrap;
+  /* need to apply wavy-text="text content + some length" for each element! */
+  content: attr(wavy-text);
+  color: transparent;
+  line-height: 1.8;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ffde8b;
+  animation: wavy-slide 3s linear infinite;
+}
+.wavy:hover:after {
+  animation: none;
+}
+
+@keyframes wavy-slide {
+  to {
+    margin-left: -51%;
+  }
+}
+// https://codepen.io/alvaromontoro/pen/GRNmdzB
+.dot {
+  width: 2vw;
+  height: 2vw;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translate3d(var(--left-ini), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), 110vh, 0);
+  }
+}
+// use scss to vary the dots size & transparency
+@for $i from 1 through 100 {
+  .dot:nth-child(#{$i}) {
+    --left-ini: #{random(20) - 10}vw;
+    --left-end: #{random(20) - 10}vw;
+    left: #{random(100)}vw;
+    animation: snowfall #{5 + random(10)}s linear infinite;
+    animation-delay: -#{random(10)}s;
+  }
+}
