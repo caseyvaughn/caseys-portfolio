@@ -19,7 +19,7 @@ export default function Portfolio() {
                   <Card.Text>
                     A Wordle game clone that allows users to create custom Wordle games and to solve Wordles created by other users.
                 </Card.Text>
-                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                <i class="devicon-javascript-plain"></i>
                 
 
 
