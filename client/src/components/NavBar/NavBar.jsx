@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
     <Navbar collapseOnSelect expand="md" sticky="top">
     <Container className="nav-container">
-        <Navbar.Brand bsPrefix="cabin nav nav-title" href="/">Casey Vaughn</Navbar.Brand>
+        <Navbar.Brand bsPrefix="cabin nav-title" href="/">CV</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="responsive-navbar">
           <Nav className="mr-auto">

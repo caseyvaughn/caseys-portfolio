@@ -4,16 +4,22 @@
 }
 
 .nav-title {
-  font-size: 27px;
-  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #053f34;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: 10px;
 }
-
+.nav-title:hover {
+  color: #ffde8b;
+}
 .nav {
-  color: #053f34;
   text-decoration: none;
   margin: 20px;
-}
-
-.special-item {
-  color: red;
 }
