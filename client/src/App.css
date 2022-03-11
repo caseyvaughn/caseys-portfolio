@@ -28,9 +28,17 @@
 
 .icon {
   height: 40px;
-  width: 40px;
-  margin: 10px;
+  /* width: 40px; */
+  margin: 5px;
   fill: #053f34;
+}
+.github-icon {
+  height: 60px;
+  margin: 5px;
+  fill: #053f34;
+}
+.github-icon:hover {
+  transform: scale(1.2);
 }
 .footer-icon {
   height: 40px;
@@ -53,7 +61,7 @@ a.navbar-brand:hover {
 .wavy {
   position: relative;
   display: inline-block;
-  height: 60px;
+  height: 70px;
   overflow: hidden; /*keep underline wave to only text length */
 }
 
@@ -71,6 +79,7 @@ a.navbar-brand:hover {
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: #ffde8b;
+  animation: wavy-slide 3s linear infinite;
 }
 .wavy:hover:after {
   animation: wavy-slide 3s linear infinite;

@@ -19,8 +19,7 @@ export default function Portfolio() {
           <Col className="card-col">
             <Card className="portfolio-card card">
               <Card.Body>
-                <a href="https://wordle-with-friendz.netlify.app/">
-                <Card.Title className="cabin">Wordle With Friends</Card.Title></a>
+                <Card.Title className="site-title">Wordle With Friends</Card.Title>
                   <Card.Text>
                     A Wordle game clone that allows users to create custom Wordle games and to solve Wordles created by other users.
                   </Card.Text>
@@ -28,35 +27,37 @@ export default function Portfolio() {
                 <DevIcon icon="ruby" className="icon" /> 
                 <DevIcon icon="nodejs" className="icon" />
                 <DevIcon icon="bootstrap" className="icon" />
-                <a href="https://github.com/caseyvaughn/wordle-with-friends">
+                
+                    <br />
+                <a className="extern-link" href="https://wordle-with-friendz.netlify.app/">Deployed Site</a>
+                <a href="https://github.com/caseyvaughn/wordle-with-friends"> <br />
                   <>
-                    <DevIcon icon="github_badge" className="icon" />
+                    <DevIcon icon="github_badge" className="github-icon" />
                   </>
                 </a>
-                    <br />
-                  <a className="extern-link" href="https://wordle-with-friendz.netlify.app/">Deployed Site</a>
               </Card.Body>
               </Card>
           </Col>
           
             <Col className="card-col">
               <Card className="portfolio-card">
-                {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
                 <Card.Body>
                   <Card.Title>greatReads</Card.Title>
                   <Card.Text>
-                    A reading tracking website that allows users to log their reading habits and review books.
+                    A reading tracking website that allows users to log their reading habits and create, edit, and delete reviews.
                   </Card.Text>
                   <DevIcon icon="react" className="icon" />
                   <DevIcon icon="nodejs" className="icon" />
                   <DevIcon icon="bootstrap" className="icon" />
-                    <a href="https://github.com/caseyvaughn/greatReads">
+                    
+                  <br/>
+                <a className="extern-link" href="https://caseys-great-reads.netlify.app/">Deployed Site</a>
+              <br/>
+              <a href="https://github.com/caseyvaughn/greatReads">
                       <>
-                        <DevIcon icon="github_badge" className="icon" />
+                        <DevIcon icon="github_badge" className="github-icon" />
                       </>
                     </a>
-                  <br/>
-                  <a className="extern-link" href="https://caseys-great-reads.netlify.app/">Deployed Site</a>
                 </Card.Body>
                 </Card>
           </Col>
@@ -74,13 +75,15 @@ export default function Portfolio() {
                   <DevIcon icon="css3" className="icon" />
                   <DevIcon icon="html5" className="icon" />
 
-                      <a href="https://github.com/caseyvaughn/Tarot-Reader">
+                      
+                    <br/>
+                <a className="extern-link" href="https://caseyvaughn.github.io/Tarot-Reader/">Deployed Site</a>
+                <br />
+                <a href="https://github.com/caseyvaughn/Tarot-Reader">
                         <>
-                          <DevIcon icon="github_badge" className="icon" />
+                          <DevIcon icon="github_badge" className="github-icon" />
                         </>
                       </a>
-                    <br/>
-                  <a className = "extern-link" href="https://caseyvaughn.github.io/Tarot-Reader/">Deployed Site</a>
                 </Card.Body>
               </Card>
             </Col>

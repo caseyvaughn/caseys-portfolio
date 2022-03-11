@@ -1,5 +1,18 @@
 .footer {
-  background-color: pink;
+  background-color: #ffde8b;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.email {
+  background-color: #ffde8b;
+  color: #053f34;
+  border-radius: 25px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #053f34;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 690px) {

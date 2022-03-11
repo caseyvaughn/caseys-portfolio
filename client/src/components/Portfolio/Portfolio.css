@@ -3,7 +3,7 @@
   border-radius: 50px;
   background-color: #d2d0e7;
   border: 2px solid #053f34;
-  height: 600px;
+  height: 400px;
   width: 350px;
   margin: 10px;
   padding: 5px;
@@ -12,13 +12,13 @@ a.extern-link {
   background-color: #d2d0e7;
   color: #053f34;
   border-radius: 25px;
-  padding: 14px 25px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border: 2px solid #053f34;
   text-decoration: none;
-  margin: 10px;
+  margin: 5px;
 }
 
 /* center cards when there is a single column spread */
@@ -28,7 +28,7 @@ a.extern-link {
 }
 
 .card-title {
-  font-size: 3vw;
+  font-family: Cabin;
 }
 .card-image.screenshot {
   width: 300px;
