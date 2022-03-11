@@ -32,6 +32,20 @@
   margin: 10px;
   fill: #053f34;
 }
+.footer-icon {
+  height: 40px;
+  margin: 10px;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+a:hover {
+  transform: scale(1.1);
+}
+a.navbar-brand:hover {
+  transform: scale(1.1);
+}
 
 /* examples used for animated squiggles */
 /* https://codepen.io/mariawhen/pen/LWxQxW?editors=1100 */

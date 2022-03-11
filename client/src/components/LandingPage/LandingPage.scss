@@ -6,10 +6,13 @@
 }
 .greeting {
   font-size: 10vw;
+  position: relative;
+  z-index: 1;
 }
 .desc {
   font-size: 4vw;
   font-style: italic;
+  z-index: 2;
 }
 // https://codepen.io/alvaromontoro/pen/GRNmdzB
 .dot {
@@ -19,6 +22,7 @@
   border-radius: 50%;
   position: absolute;
   top: -5vh;
+  z-index: 0;
 }
 
 @keyframes snowfall {
@@ -35,7 +39,7 @@
     --left-ini: #{random(20) - 10}vw;
     --left-end: #{random(20) - 10}vw;
     left: #{random(100)}vw;
-    animation: snowfall #{5 + random(10)}s linear infinite;
+    animation: snowfall #{8 + random(10)}s linear infinite;
     animation-delay: -#{random(10)}s;
   }
 }

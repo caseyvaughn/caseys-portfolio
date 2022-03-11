@@ -1,0 +1,12 @@
+.footer {
+  background-color: pink;
+}
+
+@media only screen and (max-width: 690px) {
+  .footer {
+    font-size: 5px;
+  }
+  .footer-icon {
+    height: 30px;
+  }
+}
