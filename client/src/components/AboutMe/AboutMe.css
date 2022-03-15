@@ -1,3 +1,7 @@
+.aboutme-div {
+  position: relative;
+  z-index: 1;
+}
 .profile-pic {
   border: 7px solid white;
   border-radius: 50%;
@@ -8,6 +12,7 @@
 
 .profile-container {
   border: 3px solid #053f34;
+  background-color: #d2d0e7;
   border-radius: 25px;
   padding: 20px;
   margin: 20px;
@@ -15,4 +20,19 @@
 }
 .aboutme {
   font-size: 5vw;
+}
+.aboutme1 {
+  font-size: 3vw;
+  font-style: italic;
+}
+.resume-btn {
+  background-color: #ffde8b;
+  color: #053f34;
+  padding: 10px;
+  border: 2px solid #053f34;
+  border-radius: 25px;
+}
+
+.resume-btn:hover {
+  transform: scale(1.1);
 }

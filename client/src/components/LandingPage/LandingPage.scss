@@ -16,8 +16,8 @@
 }
 // https://codepen.io/alvaromontoro/pen/GRNmdzB
 .dot {
-  width: 2vw;
-  height: 2vw;
+  width: 3vw;
+  height: 3vw;
   background: white;
   border-radius: 50%;
   position: absolute;
@@ -25,21 +25,21 @@
   z-index: 0;
 }
 
-// @keyframes snowfall {
-//   0% {
-//     transform: translate3d(var(--left-ini), 0, 0);
-//   }
-//   100% {
-//     transform: translate3d(var(--left-end), 110vh, 0);
-//   }
-// }
+@keyframes snowfall {
+  0% {
+    transform: translate3d(var(--left-ini), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), 520vh, 0);
+  }
+}
 // use scss to vary the dots size & transparency
-// @for $i from 1 through 100 {
-//   .dot:nth-child(#{$i}) {
-//     --left-ini: #{random(20) - 10}vw;
-//     --left-end: #{random(20) - 10}vw;
-//     left: #{random(100)}vw;
-//     animation: snowfall #{8 + random(10)}s linear infinite;
-//     animation-delay: -#{random(10)}s;
-//   }
-// }
+@for $i from 1 through 100 {
+  .dot:nth-child(#{$i}) {
+    --left-ini: #{random(20) - 10}vw;
+    --left-end: #{random(20) - 10}vw;
+    left: #{random(100)}vw;
+    animation: snowfall #{30 + random(10)}s linear infinite;
+    animation-delay: -#{random(10)}s;
+  }
+}
