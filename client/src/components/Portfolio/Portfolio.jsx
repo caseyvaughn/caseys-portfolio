@@ -4,6 +4,7 @@ import { scroller } from "react-scroll";
 import DevIcon from "devicon-react-svg";
 
 export default function Portfolio() {
+  
   return (
     <div id="projects" className="section-div">
     

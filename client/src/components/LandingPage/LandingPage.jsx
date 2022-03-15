@@ -8,11 +8,11 @@ export default function LandingPage() {
       <h1 className="greeting"> Hi, I'm Casey! 👋  </h1>
       <h3 className="greeting desc">Program coordinator turned full stack developer</h3>
      
-      {[...Array(100)].map((val) => {
+      {/* {[...Array(100)].map((val) => {
         return (
           <div className="dot"></div>
         )
-      })}
+      })} */}
     </div>
   )
 }
