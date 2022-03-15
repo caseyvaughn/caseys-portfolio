@@ -11,11 +11,11 @@ import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
     <div className="App">
-      {[...Array(100)].map((val) => {
+      {/* {[...Array(100)].map((val) => {
         return (
           <div className="dot"></div>
         )
-      })}
+      })} */}
       <NavBar />
       <LandingPage/> 
       <Portfolio />

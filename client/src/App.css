@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-
-  background-color: #ead2e0;
+  background-color: #f2d3e5;
   font-family: Inconsolata;
   color: #053f34;
 }
@@ -25,7 +24,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #d2d0e7;
+  background-color: #f2d3e5;
 }
 
 .icon {

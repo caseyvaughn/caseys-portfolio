@@ -1,5 +1,6 @@
 .landing-page {
-  height: 300px;
+  height: calc(100% - 100px);
+  min-height: 695px;
   text-align: left;
   margin-left: 70px;
   margin-top: 150px;
@@ -30,7 +31,7 @@
     transform: translate3d(var(--left-ini), 0, 0);
   }
   100% {
-    transform: translate3d(var(--left-end), 520vh, 0);
+    transform: translate3d(var(--left-end), 250vh, 0);
   }
 }
 // use scss to vary the dots size & transparency

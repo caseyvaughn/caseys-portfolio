@@ -1,6 +1,7 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import { scroller } from "react-scroll";
 import "./NavBar.css"
+import Resume from "../../assets/Casey_Vaughn_Resume.pdf"
 
 //refrence for using react scroll links
 // https://stackoverflow.com/questions/59915723/using-react-scroll-link-while-using-react-boostrap-nav-link
@@ -31,6 +32,7 @@ export default function NavBar() {
               duration: 100,
             })}
             >Contact</Nav.Link>
+            <a style={{ textDecoration: "none", color: "#053f34", marginLeft:"20px", marginTop: "8px" }} classname="resume-link" href={Resume} download>My Resume ↓</a>
         </Nav>
       </Navbar.Collapse>
     </Container>

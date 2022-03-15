@@ -1,7 +1,7 @@
 .nav-container {
   color: #053f34;
   text-align: left;
-  background-color: #d2d0e7;
+  background-color: #f2d3e5;
   margin-top: -10px;
 }
 
@@ -24,4 +24,7 @@
 .nav {
   text-decoration: none;
   margin: 20px;
+}
+.resume-link {
+  text-decoration: none;
 }
