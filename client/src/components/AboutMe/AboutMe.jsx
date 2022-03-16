@@ -19,7 +19,7 @@ export default function AboutMe() {
           <p>I'm a full-stack developer with a background in federal government and international education. Originally from Indiana, I've lived in Chile, Azerbaijan, and D.C., and now proudly call Philadelphia my home. </p>
               <p>I strive to deliver products that are intuitive, accessible, and well designed. When I'm not coding, you can find me spending time outside running, biking, or reading in a hammock. </p>
               <div style={{display:"flex", justifyContent:"center"}}>
-                <a href="../../assets/Casey_Vaughn_Resume_Draft_Updated.pdf" download><button className="resume-btn">My Resume ↓</button></a>
+                <a href="../../assets/Casey_Vaughn_Resume.pdf" download><button className="resume-btn">My Resume ↓</button></a>
               </div>
               <br />
           
