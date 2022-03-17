@@ -1,6 +1,6 @@
 import "./AboutMe.css"
 import { Container, Row, Col} from "react-bootstrap"
-import photo from "../../assets/IMG_5916 3.jpg"
+import photo from "../../assets/prof-pic-square-cropped.jpg"
 
 
 export default function AboutMe() {
@@ -16,8 +16,8 @@ export default function AboutMe() {
             </Col>
             <Col xs={12} md={6} style={{textAlign:"left"}}>
           <h2>Hi, I'm Casey! 👋</h2>
-          <p>I'm a full-stack developer with a background in federal government and international education. Originally from Indiana, I've lived in Chile, Azerbaijan, and D.C., and now proudly call Philadelphia my home. </p>
-              <p>I strive to deliver products that are intuitive, accessible, and well designed. When I'm not coding, you can find me spending time outside running, biking, or reading in a hammock. </p>
+          <p>I'm a full-stack developer with a background in international relations and program coordination. Originally from Indiana (go Hoosiers!), my passion for language learning and exploration led me to live & study in Chile, Turkey, and Azerbaijan.</p>
+              <p>I’m most fulfilled when collaborating with others to make a positive impact on the world. When I'm not coding, you can find me spending time outside running, biking, or reading in a hammock. </p>
               <div style={{display:"flex", justifyContent:"center"}}>
                 <a href="../../assets/Casey_Vaughn_Resume.pdf" download><button className="resume-btn">My Resume ↓</button></a>
               </div>

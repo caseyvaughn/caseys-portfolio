@@ -1,19 +1,16 @@
 /* applying both .card & .portfolio-card to override defaul bootstrap card styling */
 .card.portfolio-card {
   border-radius: 50px;
-  background-color: #f2d3e5;
+  background-color: #d2d0e7;
   border: 2px solid #053f34;
   height: 400px;
   width: 350px;
   margin: 10px;
   padding: 5px;
 }
-.project-header {
-  position: relative;
-  z-index: 2;
-}
+
 a.extern-link {
-  background-color: #f2d3e5;
+  background-color: #d2d0e7;
   color: #053f34;
   border-radius: 25px;
   padding: 10px 20px;

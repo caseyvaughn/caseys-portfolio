@@ -9,12 +9,12 @@ export default function Portfolio() {
   return (
     <div id="projects" className="section-div">
     
-      <h1 className="cabin project-header"
+      {/* <h1 className="cabin project-header"
               onClick={() => scroller.scrollTo('projects', {
               smooth: true,
               duration: 100,
             })}
-            >Recent Work ⬇</h1>
+            >Recent Work ⬇</h1> */}
       <p></p>
       <Container>
         <Row className='row-cols-1 row-cols-lg-3'>

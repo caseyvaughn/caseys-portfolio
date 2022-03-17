@@ -1,5 +1,6 @@
 import React from 'react'
 import "./LandingPage.scss"
+import { scroller } from "react-scroll";
 
 
 export default function LandingPage() {
@@ -13,6 +14,14 @@ export default function LandingPage() {
           <div className="dot"></div>
         )
       })} */}
+      <div style={{display:"flex", justifyContent:"center"}}>
+      <button className="resume-btn"><h1 className="cabin project-header"
+              onClick={() => scroller.scrollTo('projects', {
+              smooth: true,
+              duration: 100,
+            })}
+        >Recent Work ⬇</h1></button>
+      </div>
     </div>
   )
 }

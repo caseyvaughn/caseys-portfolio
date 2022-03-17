@@ -16,6 +16,7 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/cvaughn555/">
           <img className = "footer-icon" src={linkedin} alt="linkedin logo"></img>
         </a> 
+        <p className="cabin" style={{marginTop:"20px", fontSize:"20px"}}>Built by Casey Vaughn | © 2022</p>
       </p>
     </div>
   )
