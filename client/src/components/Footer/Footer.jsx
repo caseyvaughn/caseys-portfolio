@@ -6,7 +6,7 @@ import "./Footer.css"
 export default function Footer() {
   return (
     <div className="footer section-div" id="contact">
-      <p className="aboutme1">Let's build something great together!</p>
+      <p className="aboutme1 relative">Let's build something great together!</p>
       <p style={{fontSize:"20px"}}>
         <a className = "email" href="mailto:caseytvaughn@gmail.com?"> Say hi 📪  </a>
          or find me elsewhere on the internet: 

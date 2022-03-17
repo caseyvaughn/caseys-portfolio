@@ -1,6 +1,5 @@
 import { Card, Row, Col, Container} from 'react-bootstrap'
 import "./Portfolio.css"
-import { scroller } from "react-scroll";
 import DevIcon from "devicon-react-svg";
 
 
@@ -9,13 +8,6 @@ export default function Portfolio() {
   return (
     <div id="projects" >
       <div style={{paddingTop: "100px"}}>
-    
-      {/* <h1 className="cabin project-header"
-              onClick={() => scroller.scrollTo('projects', {
-              smooth: true,
-              duration: 100,
-            })}
-            >Recent Work ⬇</h1> */}
       <p></p>
       <Container>
         <Row className='row-cols-1 row-cols-lg-3'>

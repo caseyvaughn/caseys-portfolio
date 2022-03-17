@@ -1,6 +1,7 @@
 .aboutme-div {
   position: relative;
   z-index: 1;
+  margin-bottom: 50px;
 }
 .profile-pic {
   border: 7px solid white;
