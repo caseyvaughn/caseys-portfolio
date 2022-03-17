@@ -10,7 +10,7 @@ export default function LandingPage() {
       <h1 className="greeting"> Hi, I'm Casey! 👋  </h1>
       <h3 className="desc">Program coordinator turned full stack developer</h3>
       <div style={{display:"flex", justifyContent:"center"}}>
-      <button className="resume-btn"><h1 className="cabin project-header"
+      <button className="resume-btn"><h1 className="project-header"
               onClick={() => scroller.scrollTo('projects', {
               smooth: true,
               duration: 100,

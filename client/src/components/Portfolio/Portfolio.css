@@ -20,6 +20,13 @@ a.extern-link {
   border: 2px solid #053f34;
   text-decoration: none;
   margin: 5px;
+
+  background-color: #ffde8b;
+  color: #053f34;
+  padding: 10px;
+  border: 2px solid #053f34;
+  border-radius: 25px;
+  position: relative;
 }
 
 /* center cards when there is a single column spread */
