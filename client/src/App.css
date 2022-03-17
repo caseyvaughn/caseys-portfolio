@@ -4,6 +4,10 @@
   font-family: Inconsolata;
   color: #053f34;
 }
+html,
+body {
+  margin: 0px;
+}
 
 .cabin {
   font-family: Cabin;

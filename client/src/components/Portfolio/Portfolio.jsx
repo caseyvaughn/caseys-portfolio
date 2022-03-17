@@ -7,7 +7,8 @@ import DevIcon from "devicon-react-svg";
 export default function Portfolio() {
   
   return (
-    <div id="projects" className="section-div">
+    <div id="projects" >
+      <div style={{paddingTop: "100px"}}>
     
       {/* <h1 className="cabin project-header"
               onClick={() => scroller.scrollTo('projects', {
@@ -91,6 +92,7 @@ export default function Portfolio() {
             </Col>
           </Row>
       </Container>
-    </div>
+      </div>
+      </div>
   )
 }
