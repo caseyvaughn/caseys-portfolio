@@ -1,6 +1,7 @@
 import "./AboutMe.css"
 import { Container, Row, Col} from "react-bootstrap"
 import photo from "../../assets/prof-pic-square-cropped.jpg"
+import resume from "../../assets/Casey_Vaughn_Resume.pdf"
 
 
 export default function AboutMe() {
@@ -19,7 +20,7 @@ export default function AboutMe() {
           <p>I'm a full-stack developer with a background in international relations and program coordination. Originally from Indiana (go Hoosiers!), my passion for language learning and exploration led me to live & study in Chile, Turkey, Azerbaijan, and D.C.. I now proudly call Philadelphia my home.</p>
               <p>I’m most fulfilled when collaborating with others to make a positive impact on the world. When I'm not coding, you can find me spending time outside running, biking, or reading in a hammock. </p>
               <div style={{display:"flex", justifyContent:"center"}}>
-                <a href="../../assets/Casey_Vaughn_Resume.pdf" download><button className="resume-btn">My Resume ↓</button></a>
+                <a href={resume} download><button className="resume-btn">My Resume ↓</button></a>
               </div>
               <br />
           
