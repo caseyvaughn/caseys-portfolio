@@ -11,7 +11,7 @@ import Resume from "../../assets/Casey_Vaughn_Resume.pdf"
 
 export default function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="md" sticky="top">
+    <Navbar collapseOnSelect expand="md" fixed="top">
     <Container className="nav-container">
         <Navbar.Brand bsPrefix="cabin nav-title" href="/">CV</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
