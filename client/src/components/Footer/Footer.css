@@ -3,6 +3,13 @@
   padding-top: 30px;
   margin-top: 30px;
 }
+.aboutme1 {
+  font-size: calc(14px + 1.5vw); /*use calc to set a minimum font size*/
+  font-style: italic;
+}
+.footer-text {
+  font-size: calc(11px + 1vw);
+}
 .email {
   background-color: #ffde8b;
   color: #053f34;

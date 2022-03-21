@@ -6,8 +6,8 @@ import "./Footer.css"
 export default function Footer() {
   return (
     <div className="footer section-div" id="contact">
-      <p className="aboutme1 relative">Let's build something great together!</p>
-      <p style={{fontSize:"20px"}}>
+      <h2 className="aboutme1 relative">Let's build something great together!</h2>
+      <div className="footer-text">
         <a className = "email" href="mailto:caseytvaughn@gmail.com?"> Say hi 📪  </a>
          or find me elsewhere on the internet: 
           <a href="https://github.com/caseyvaughn/">
@@ -16,8 +16,8 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/cvaughn555/">
           <img className = "footer-icon" src={linkedin} alt="linkedin logo"></img>
         </a> 
-        <p className="cabin" style={{marginTop:"20px", fontSize:"20px"}}>Built by Casey Vaughn | © 2022</p>
-      </p>
+        <h3 className="cabin" style={{marginTop:"20px", fontSize:"20px"}}>Built by Casey Vaughn | © 2022</h3>
+      </div>
     </div>
   )
 }

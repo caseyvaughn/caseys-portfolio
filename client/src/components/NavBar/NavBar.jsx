@@ -41,7 +41,7 @@ export default function NavBar() {
               duration: 100,
             })}
             >Contact</Nav.Link>
-            <a style={{ textDecoration: "none", color: "#053f34", marginLeft:"20px", marginTop: "8px" }} classname="resume-link" href={Resume} download>My Resume ↓</a>
+            <a style={{ textDecoration: "none", color: "#053f34", marginLeft:"20px", marginTop: "8px" }} className="resume-link" href={Resume} download>My Resume ↓</a>
         </Nav>
       </Navbar.Collapse>
     </Container>

@@ -18,14 +18,13 @@
   padding: 20px;
   margin: 20px;
   width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .aboutme {
-  font-size: 5vw;
+  font-size: calc(30px + 1.5vw); /*use calc to set a minimum font size*/
 }
-.aboutme1 {
-  font-size: 3vw;
-  font-style: italic;
-}
+
 .resume-btn {
   background-color: #ffde8b;
   color: #053f34;

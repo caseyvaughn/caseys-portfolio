@@ -7,7 +7,7 @@ import resume from "../../assets/Casey_Vaughn_Resume.pdf"
 export default function AboutMe() {
   return (
 <div id="aboutme" className="section-div aboutme-div" style={{paddingTop:"100px"}}>
-    <Container className="profile-container">
+    <Container  fluid="false" className="profile-container">
         <h1 className="cabin aboutme" wavy-text="About Me xxx">About Me</h1>
         <div>
       <Row style={{ marginTop: "25px" }}>
