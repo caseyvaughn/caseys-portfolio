@@ -9,6 +9,7 @@
 }
 .footer-text {
   font-size: calc(11px + 1vw);
+  margin-bottom: 30px;
 }
 .email {
   background-color: #ffde8b;
@@ -21,7 +22,20 @@
   border: 2px solid #053f34;
   margin: 10px;
 }
-
+.up-arrow {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px 15px 0px 15px;
+  /* color: #d2d0e7; */
+  color: #ffde8b;
+  background-color: #053f34;
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+}
+.up-arrow:hover {
+  transform: scale(1.2);
+}
 @media only screen and (max-width: 690px) {
   .footer {
     font-size: 5px;
