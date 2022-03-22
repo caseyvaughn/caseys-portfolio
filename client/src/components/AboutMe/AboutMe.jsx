@@ -13,7 +13,6 @@ export default function AboutMe() {
       <Row style={{ marginTop: "25px" }}>
             <Col>
             <img className="profile-pic" src={photo} alt="Casey Vaughn" />
-              {/* <img className="profile-pic" src="https://i.imgur.com/Pozvt0u.png" alt="Casey Vaughn" /> */}
             </Col>
             <Col xs={12} md={6} style={{textAlign:"left"}}>
           <h2>Hi, I'm Casey! 👋</h2>
