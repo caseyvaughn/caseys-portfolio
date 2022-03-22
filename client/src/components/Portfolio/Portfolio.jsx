@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <div id="projects" >
       <div style={{ paddingTop: "100px" }}>
-        <h1 className="cabin" style={{fontSize:"10vw"}}>Recent Projects</h1>
+        <h1 className="cabin" style={{fontSize:"10vw", position:"relative"}}>Recent Projects</h1>
       <p></p>
       <Container>
         <Row className='row-cols-1 row-cols-lg-3'>

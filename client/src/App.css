@@ -35,7 +35,6 @@ body {
 
 .icon {
   height: 40px;
-  /* width: 40px; */
   margin: 5px;
   fill: #053f34;
 }
@@ -60,40 +59,4 @@ a:hover {
 }
 a.navbar-brand:hover {
   transform: scale(1.1);
-}
-
-/* examples used for animated squiggles */
-/* https://codepen.io/mariawhen/pen/LWxQxW?editors=1100 */
-/* https://codepen.io/caseyvaughn/pen/MWOdMre?editors=1100 */
-.wavy {
-  position: relative;
-  display: inline-block;
-  height: 70px;
-  overflow: hidden; /*keep underline wave to only text length */
-}
-
-.wavy::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  white-space: nowrap;
-  /* need to apply wavy-text="text content + some length" for each element! */
-  content: attr(wavy-text);
-  color: transparent;
-  line-height: 1.8;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #ffde8b;
-  animation: wavy-slide 3s linear infinite;
-}
-.wavy:hover:after {
-  animation: wavy-slide 3s linear infinite;
-}
-
-@keyframes wavy-slide {
-  to {
-    margin-left: -51%;
-  }
 }

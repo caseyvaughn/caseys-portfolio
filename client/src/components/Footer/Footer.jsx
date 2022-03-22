@@ -19,7 +19,7 @@ export default function Footer() {
         </a>
         
       </div>
-      <div style={{ display: "flex", justifyContent:"space-around" }}>
+      <div style={{ display: "flex", justifyContent:"space-between" }}>
         <button
           className="up-arrow"
           onClick={() => scroller.scrollTo('landing-page', {
